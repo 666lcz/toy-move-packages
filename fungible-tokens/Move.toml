@@ -1,0 +1,9 @@
+[package]
+name = "fungible_tokens"
+version = "0.0.1"
+
+[dependencies]
+Sui = { local = "/Users/cl/ml/fastnft/crates/sui-framework" }
+
+[addresses]
+fungible_tokens = "0x0"
