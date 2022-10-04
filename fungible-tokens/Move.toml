@@ -3,7 +3,7 @@ name = "fungible_tokens"
 version = "0.0.1"
 
 [dependencies]
-Sui = { local = "/Users/cl/ml/fastnft/crates/sui-framework" }
+Sui = { git = "https://github.com/MystenLabs/sui.git", subdir = "crates/sui-framework", rev = "devnet" }
 
 [addresses]
 fungible_tokens = "0x0"
